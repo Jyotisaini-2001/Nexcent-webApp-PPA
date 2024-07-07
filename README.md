@@ -58,3 +58,5 @@ module.exports = {
     flowbite.plugin(),
   ],
 }; ```
+
+@made by Jyoti Saini
