@@ -41,7 +41,7 @@ module.exports = {
 };
 ```
  Run the following command to install flowbite-react:
-npm i flowbite-react
+```bash npm i flowbite-react```
 
  Add the Flowbite React content path and plugin to tailwind.config.js:
 ```bash
