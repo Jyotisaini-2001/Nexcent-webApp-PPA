@@ -16,13 +16,13 @@ bun dev
 
 npx create-next-app@latest
 
-# Install tailwindcss and its peer dependencies:
+ Install tailwindcss and its peer dependencies:
 ```bash npm i -D tailwindcss postcss autoprefixer ```
 
-# Generate tailwind.config.js and postcss.config.js files:
+ Generate tailwind.config.js and postcss.config.js files:
 ```bash npx tailwindcss init -p```
 
-# Add the paths to all of your template files in your tailwind.config.js file:
+ Add the paths to all of your template files in your tailwind.config.js file:
 ```bash
 ** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -40,10 +40,10 @@ module.exports = {
   plugins: [],
 };
 ```
-# Run the following command to install flowbite-react:
+ Run the following command to install flowbite-react:
 npm i flowbite-react
 
-# Add the Flowbite React content path and plugin to tailwind.config.js:
+ Add the Flowbite React content path and plugin to tailwind.config.js:
 ```bash
 const flowbite = require("flowbite-react/tailwind");
 
